@@ -33,6 +33,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    color: var(--dark-gray);
 }
 
 .get-started-nav {
@@ -73,4 +74,58 @@ banner {
 
 .banner-description {
     grid-area: description;
+}
+
+.cooking-courses-container {
+    display: grid;
+    grid-template: 1fr 1fr / repeat(3, 1fr);
+    gap: 60px 30px;
+    margin: 0px 30px;
+}
+
+.cooking-courses-item {
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    padding: 20px;
+}
+
+.item-1 {
+    background-color: var(--yellow);
+    font-family: 'Roboto Serif', serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.cooking-courses-item img {
+    position: absolute;
+    width: 60px;
+    left: 200px;
+    bottom: 230px;
+}
+
+.course-title {
+    font-family: 'Roboto Serif', serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.course-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--dark-gray);
+    line-height: 25px;
+}
+
+ main button {
+    background-color: white;
+    border: .5px solid var(--dark-gray);
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
 }
