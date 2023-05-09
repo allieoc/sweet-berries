@@ -54,7 +54,7 @@ nav {
 }
 
 banner {
-    margin: 50px 30px;
+    margin: 50px 0px 50px 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -128,4 +128,16 @@ banner {
     border-radius: 20px;
     width: 100px;
     padding: 10px;
+}
+
+footer {
+    background-color: var(--yellow);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+footer img {
+    width: 100px;
 }
