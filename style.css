@@ -23,6 +23,18 @@ a {
     font-weight: 500;
 }
 
+h1 {
+    font-family: 'Roboto Serif', serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .get-started-nav {
     color: white;
     background-color: black;
@@ -37,5 +49,28 @@ nav {
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 30px;
+}
+
+banner {
+    margin: 50px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "title image"
+        "description image";
+    column-gap: 60px;
+}
+
+.banner-image {
+    width: 90%;
+    grid-area: image;
+}
+
+.banner-title {
+    grid-area: title;
+}
+
+.banner-description {
+    grid-area: description;
 }
