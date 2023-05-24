@@ -53,8 +53,12 @@ nav {
     margin: 20px 30px;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 banner {
-    margin: 50px 0px 50px 30px;
+    margin: 50px 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -156,4 +160,25 @@ footer img {
     .banner-description {
         text-align: center;
     }
+}
+
+@media (max-width: 390px){
+    nav a{
+        display: none;
+    }
+    }
+    .get-started-nav{
+        display: none;
+    }
+    .hamburger-menu{
+       display: block;
+       position: absolute;
+       right: 30px;
+       top: 30px;
+    }
+    nav img{
+        position: absolute;
+        top: 30px;
+    }
+    
 }
