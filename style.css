@@ -78,7 +78,7 @@ banner {
 
 .cooking-courses-container {
     display: grid;
-    grid-template: 1fr 1fr / repeat(3, 1fr);
+    grid-template: 1fr 1fr / repeat(auto-fit, minmax(250px, 1fr));
     gap: 60px 30px;
     margin: 0px 30px;
 }
@@ -92,6 +92,7 @@ banner {
     justify-content: flex-start;
     position: relative;
     padding: 20px;
+    height: 220px;
 }
 
 .item-1 {
@@ -140,4 +141,19 @@ footer {
 
 footer img {
     width: 100px;
+}
+
+@media (max-width: 770px) {
+    banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .banner-title {
+        text-align: center;
+    }
+    .banner-description {
+        text-align: center;
+    }
 }
