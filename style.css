@@ -160,9 +160,15 @@ footer img {
     .banner-description {
         text-align: center;
     }
+    h1 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 14px;
+    }
 }
 
-@media (max-width: 390px){
+@media (max-width: 450px){
     nav a{
         display: none;
     }
