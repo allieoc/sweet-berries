@@ -29,6 +29,10 @@ h1 {
     font-weight: 500;
 }
 
+h2 {
+    margin: 0;
+}
+
 h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -183,7 +187,7 @@ footer img {
        right: 30px;
        top: 30px;
     }
-    
+
     nav img{
         position: absolute;
         top: 30px;
