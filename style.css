@@ -172,15 +172,18 @@ footer img {
     nav a{
         display: none;
     }
+
     .get-started-nav{
         display: none;
     }
+
     .hamburger-menu{
        display: block;
        position: absolute;
        right: 30px;
        top: 30px;
     }
+    
     nav img{
         position: absolute;
         top: 30px;
